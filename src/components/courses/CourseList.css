@@ -1,0 +1,18 @@
+.course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .course-item {
+    padding: 10px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .course-item:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
