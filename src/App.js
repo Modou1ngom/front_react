@@ -27,7 +27,7 @@ function App() {
         <div style={{ marginLeft: '240px', padding: '20px' }}>
           <Routes>
             {/* Accueil */}
-            <Route path="/" element={<h1>Bienvenue sur l'application de gestion</h1>} />
+            <Route path="/" element={<h1>Bienvenue sur l'application de gestion des emploi des temps des etudiants</h1>} />
             
             {/* Gestion des des Etudiants */}
             <Route path="/students" element={<StudentList />} />
